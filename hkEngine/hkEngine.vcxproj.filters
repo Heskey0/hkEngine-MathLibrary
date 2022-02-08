@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="core">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="integrator">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="math">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="global">
+      <UniqueIdentifier>{2b2a6940-d73f-4572-b057-89108dee6342}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="geometry">
+      <UniqueIdentifier>{b9e5a0fd-5561-430d-a49c-55fdb870f679}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="light transport">
+      <UniqueIdentifier>{8d6bae91-a3ae-429e-b5fe-5124958583a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hkEngine_exe">
+      <UniqueIdentifier>{793be865-c9d0-42af-975b-b2125fea1bc8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Transform.cpp">
+      <Filter>math</Filter>
+    </ClCompile>
+    <ClCompile Include="Bounds.cpp">
+      <Filter>geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="Medium.cpp">
+      <Filter>light transport</Filter>
+    </ClCompile>
+    <ClCompile Include="Quaternion.cpp">
+      <Filter>math</Filter>
+    </ClCompile>
+    <ClCompile Include="hkengine.cpp">
+      <Filter>hkEngine_exe</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Vector.hpp">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="math.hpp">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="logging.hpp">
+      <Filter>global</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix.hpp">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="Scalar.hpp">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="Quaternion.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="Bounds.h">
+      <Filter>geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Ray.hpp">
+      <Filter>light transport</Filter>
+    </ClInclude>
+    <ClInclude Include="Medium.h">
+      <Filter>light transport</Filter>
+    </ClInclude>
+    <ClInclude Include="lighttransport.hpp">
+      <Filter>light transport</Filter>
+    </ClInclude>
+    <ClInclude Include="geometry.hpp">
+      <Filter>geometry</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
